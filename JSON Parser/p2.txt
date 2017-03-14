@@ -1,0 +1,1 @@
+}, "type": "GeometryFilter"}, {"field_name": "gsd", "config": {"gte":1,"lte":9.99}, "type": "RangeFilter"}, {"field_name": "acquired", "config": {"gte":"
