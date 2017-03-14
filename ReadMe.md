@@ -3,7 +3,7 @@ This project supports Planet assets such as PlanetScope and RapidEye imagery alo
 
 Planet Inc is a company that is currently trying to map the entire planet every single day and as the constellation size increases the data value and repeat cycle increases as well.(https://www.planet.com/) The planet labs API consists of searching for satellite imagery type assets using a structured geojson
 
-DigitalGlobe is an company that is currently running request based remote sensing data acquisiton and runs an array of high resolution satellites ranging apart from investing in machine learning algorthms for object detection. The current DG system does not allow for a data download pipeline but this setup is for metadata parsing only before uploading to Google Earth Engine. 
+DigitalGlobe is an company that is currently running request based remote sensing data acquisiton and runs an array of high resolution satellites and its interest also include machine learning algorthms for object detection. The current DG system does not allow for a data download pipeline but this setup is for automated metadata parsing and asset uploading to Google Earth Engine. 
 
 Google Earth Engine is a distributed computing based planetary remote sensing system which is build on a scalable architecture approach and allows for the processing and handling of data. GEE only hosts publicly available data and additional data can be added by the user using a storage quota. The system evolves and change log is maintained at GEE (https://earthengine.google.com/)
 
