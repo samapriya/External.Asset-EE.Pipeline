@@ -1,0 +1,2 @@
+id_no,tile_id,platform,type,tile_type,system:time_start
+146336_1552619_2016-02-17_0c74_analytic,1552619,0c74,analytic,(system time has to be epoch time)--2016-02-14=1455667200000
