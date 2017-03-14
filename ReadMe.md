@@ -127,6 +127,8 @@ Migrate to folder first in Bash
 "Enter RapidEye asset destination in GEE users users/username/path"
   users/abc/RapidEye
   
+"Enter DigitalGlobe asset destination in GEE users users/username/path"
+ users/abc/DigitalGlobe
  Asset upload is included into this script
  Do you want to upload to upload assets?(y/n)
  ```
