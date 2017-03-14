@@ -59,6 +59,11 @@ Copy the Key and paste back to bash
 
 Your earthengine account is now active and linked to that account 
 
+Create empty directories using the following
+```
+mkdir rexml psxml dgxml PlanetScope RapidEye dg
+```
+
 ## Getting started
 
 The first step is to define a area that is available for download under your Planet API license. 
