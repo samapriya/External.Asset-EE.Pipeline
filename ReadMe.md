@@ -70,7 +70,7 @@ The JSON parser uses the map.geojson file created by the user and converts it to
 for this toolset is start date, end date and cloud cover percentage. The output file is an aoi.json file which is then to be placed in the Asset Download Parse & GEE Upload folder.
 
 ## Parsing metadata and download
-This toolset allows the user to use the aoi.json file to query, activate and download the assets of interest. For now only PlanetScope analytic and RapidEye analytic are enabled. The tool also created metadata from downloaded assets and uploads the downloaded assets to Google Earth Engine storage for further analysis.
+This toolset allows the user to use the aoi.json file to query, activate and download the assets of interest. For now only PlanetScope analytic and RapidEye analytic are enabled for downloading of assets or metadata. The metadata for both planetscope and rapideye are downloaded into the psxml and rexml folders respectively. The digital globe assets are acquired seperately and the metadata files for digital globe(xml are to be placed in the dgxml directory). 
 
 ## BoxFTP Upload Assets
 If you have an enterprise Box account you can use this tool to directly upload them to a folder in your Box account. It uses the mirror function so it adds files from the local path to the remote path but does not delete existing remote files. This only works for Enterprise accounts since filesize limitation on box
