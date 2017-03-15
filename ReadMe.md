@@ -27,7 +27,7 @@ The project will allow for the service to be a seamless pull, parse and push ser
 * [Usage examples](#usage-examples)
     * [Downloading an aoi](#downloading-an-aoi)
     * [Upload assets to Box](#upload-assets-to-box)
-    * [Top of Atmosphere(TOA) Radiance and TOA Reflectance Calculations](#Top-of-Atmosphere(TOA)-Radiance-and-TOA-Reflectance) Calculations
+    * [TOA Radiance and TOA Reflectance Calculations](#TOA-Radiance-and-TOA-Reflectance-Calculations)
 * [Credits](#credits)
 
 ## Installation
