@@ -139,6 +139,40 @@ Migrate to folder first in Bash
  Do you want to upload to upload assets?(y/n)
  ```
 
+## Top of Atmosphere(TOA) Radiance and TOA Reflectance Calculations
+Multiply by radiometricScaleFactor to convert DNs to TOA Radiance (watts per steradian per square metre)
+Multiply by reflectanceCoefficient to convert DNs to TOA Reflectance
+
+Migrate to folder first in Bash
+
+```
+./planet_distv3.sh.x
+
+"Enter wait time for asset activation"
+  200
+
+"Metadata will be emailed to you:This is the same email associated with Earth Engine account"
+"Enter from email: You should have password for this account"
+  abc@gmail.com
+
+"Enter to email"
+  def@gmail.com
+
+"Enter password"
+ password (Invisible Entry)
+
+"Enter PlanetScope asset destination in GEE users users/username/path"
+  users/abc/PlanetScope
+
+"Enter RapidEye asset destination in GEE users users/username/path"
+  users/abc/RapidEye
+  
+"Enter DigitalGlobe asset destination in GEE users users/username/path"
+ users/abc/DigitalGlobe
+ 
+ Asset upload is included into this script
+ Do you want to upload to upload assets?(y/n)
+ ```
 ## Upload assets to Box
 The next step if the asset upload is selected is ftp upload onto Box. The ftp login is
 ```
