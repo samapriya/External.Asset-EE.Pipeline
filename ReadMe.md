@@ -26,7 +26,7 @@ The project will allow for the service to be a seamless pull, parse and push ser
     * [BoxFTP Upload Assets](#boxftp-upload-assets)
 * [Usage examples](#usage-examples)
     * [Downloading an aoi](#downloading-an-aoi)
-    * [TOA Radiance and TOA Reflectance Calculations](#TOA-Radiance-and-TOA-Reflectance-Calculations)
+    * [TOA Radiance and TOA Reflectance Calculations](#toa-radiance-and-toa-reflectance-calculations)
     * [Upload assets to Box](#upload-assets-to-box)
 * [Credits](#credits)
 
