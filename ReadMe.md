@@ -140,7 +140,7 @@ Migrate to folder first in Bash
  Do you want to upload to upload assets?(y/n)
  ```
 
-## Top of Atmosphere(TOA) Radiance and TOA Reflectance Calculations
+## TOA Radiance and TOA Reflectance Calculations
 Multiply by radiometricScaleFactor to convert DNs to TOA Radiance (watts per steradian per square metre)
 
 Multiply by reflectanceCoefficient to convert DNs to TOA Reflectance
