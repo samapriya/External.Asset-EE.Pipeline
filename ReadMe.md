@@ -27,6 +27,7 @@ The project will allow for the service to be a seamless pull, parse and push ser
 * [Usage examples](#usage-examples)
     * [Downloading an aoi](#downloading-an-aoi)
     * [Upload assets to Box](#upload-assets-to-box)
+    * [Top of Atmosphere(TOA) Radiance and TOA Reflectance Calculations](#Top-of-Atmosphere(TOA)-Radiance-and-TOA-Reflectance) Calculations
 * [Credits](#credits)
 
 ## Installation
@@ -141,6 +142,7 @@ Migrate to folder first in Bash
 
 ## Top of Atmosphere(TOA) Radiance and TOA Reflectance Calculations
 Multiply by radiometricScaleFactor to convert DNs to TOA Radiance (watts per steradian per square metre)
+
 Multiply by reflectanceCoefficient to convert DNs to TOA Reflectance
 
 Migrate to folder first in Bash
