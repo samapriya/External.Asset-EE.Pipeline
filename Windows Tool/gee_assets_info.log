@@ -1,0 +1,9 @@
+2017-03-16 21:05:35,565 :: oauth2client.transport :: INFO :: Attempting refresh to obtain initial access_token
+2017-03-16 21:05:35,565 :: oauth2client.client :: INFO :: Refreshing access_token
+2017-03-16 21:05:42,469 :: requests.packages.urllib3.connectionpool :: INFO :: Starting new HTTPS connection (1): accounts.google.com
+2017-03-16 21:05:43,595 :: requests.packages.urllib3.connectionpool :: INFO :: Starting new HTTPS connection (1): myaccount.google.com
+2017-03-16 21:05:44,898 :: requests.packages.urllib3.connectionpool :: INFO :: Starting new HTTPS connection (1): ee-api.appspot.com
+2017-03-16 21:05:45,289 :: requests.packages.urllib3.connectionpool :: INFO :: Starting new HTTPS connection (1): www.google.com
+2017-03-16 21:05:45,637 :: requests.packages.urllib3.connectionpool :: INFO :: Starting new HTTPS connection (1): appengine.google.com
+2017-03-16 21:05:46,543 :: root :: WARNING :: Collection users/samapriya/dgbuffer already exists
+2017-03-16 21:05:47,361 :: root :: INFO :: Processing image 1 out of 1: ./PlanetScope\152867_1552719_2016-03-02_0c74_analytic.tif
