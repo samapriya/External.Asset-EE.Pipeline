@@ -58,9 +58,15 @@ Your earthengine account is now active and linked to that account
 The first step is to create the directories of interest. 
 Create empty directories using the following
 ```
-mkdir dgxml dg
+Note: The shell script has been compiled on and should run on this or higher
+Ubuntu 16.04.2 LTS
+bash version GNU bash, version 4.3.46(1)-release (x86_64-pc-linux-gnu)
+kernel 4.4.0-64-generic
+
+chmod 777 ./*.sh.x
+mkdir rexml psxml dgxml PlanetScope RapidEye dg
 ```
- 
+
 ## Parsing metadata and download
 This toolset allows the user to use the aoi.json file to query, activate and download the assets of interest.The digital globe assets are acquired seperately and the metadata files for digital globe(xml are to be placed in the dgxml directory). 
 
