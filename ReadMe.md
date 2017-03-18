@@ -26,6 +26,8 @@ The project will allow for the service to be a seamless pull, parse and push ser
     * [BoxFTP Upload Assets](#boxftp-upload-assets)
 * [Usage examples](#usage-examples)
     * [Downloading an aoi](#downloading-an-aoi)
+	* [PlanetScope and RapidEye Only](#planetscope-and-rapideye-only)
+	* [PlanetScope RapidEye and DigitalGlobe](#planetscope-rapideye-and-digitalglobe)
     * [TOA Radiance and TOA Reflectance Calculations](#toa-radiance-and-toa-reflectance-calculations)
     * [Upload assets to Box](#upload-assets-to-box)
 * [Credits](#credits)
@@ -117,6 +119,40 @@ os.environ['PLANET_API_KEY']="Enter Your Planet Key Here"
 
 Migrate to folder first in Bash
 
+## PlanetScope and RapidEye Only
+Multiply by radiometricScaleFactor to convert DNs to TOA Radiance (watts per steradian per square metre)
+
+Multiply by reflectanceCoefficient to convert DNs to TOA Reflectance
+
+Migrate to folder first in Bash
+
+```
+./planet_distv4.sh.x
+
+"Enter wait time for asset activation"
+  200
+
+"Metadata will be emailed to you:This is the same email associated with Earth Engine account"
+"Enter from email: You should have password for this account"
+  abc@gmail.com
+
+"Enter to email"
+  def@gmail.com
+
+"Enter password"
+ password (Invisible Entry)
+
+"Enter PlanetScope asset destination in GEE users users/username/path"
+  users/abc/PlanetScope
+
+"Enter RapidEye asset destination in GEE users users/username/path"
+  users/abc/RapidEye
+ 
+ Asset upload is included into this script
+ Do you want to upload to upload assets?(y/n)
+ ```
+ 
+## PlanetScope RapidEye and DigitalGlobe
 ```
 ./planet_distv2.sh.x
 
