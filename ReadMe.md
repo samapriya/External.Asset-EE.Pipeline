@@ -60,8 +60,14 @@ Copy the Key and paste back to bash
 
 Your earthengine account is now active and linked to that account 
 
-Create empty directories using the following
+Create empty directories using the following & run the following commands
 ```
+Note: The shell script has been compiled on and should run on this or higher
+Ubuntu 16.04.2 LTS
+bash version GNU bash, version 4.3.46(1)-release (x86_64-pc-linux-gnu)
+kernel 4.4.0-64-generic
+
+chmod 777 ./*.sh.x
 mkdir rexml psxml dgxml PlanetScope RapidEye dg
 ```
 
